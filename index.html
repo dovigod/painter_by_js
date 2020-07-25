@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/global.css">
+    <title>Painter</title>
+</head>
+<body>
+
+    <canvas id=JScanvas class = "canvas"></canvas>
+    <div class="controls">
+        <div class="controls_range">
+            <input type="range" id="JSrange" class="range" min = "0.1" max = "5" value="2.5" step="0.1">
+
+
+        </div>
+        <div class="btns_control">
+            <button id = "JSfill" class="button">Fill</button>
+            <button id= "JSsave" class= "button">Save</button>
+        </div>
+        <div class="controls_colors" id = "JScolor">
+            <div class="controls_color" style = "background-color: black;"></div>
+            <div class="controls_color" style = "background-color: white;"></div>
+            <div class="controls_color" style = "background-color: red;"></div>
+            <div class="controls_color" style = "background-color: orange;"></div>
+            <div class="controls_color" style = "background-color: yellow;"></div>
+            <div class="controls_color" style = "background-color: #4cd963;"></div>
+            <div class="controls_color" style = "background-color: #5ac8fa;"></div>
+            <div class="controls_color" style = "background-color: #0579ff;"></div>
+            <div class="controls_color" style = "background-color: #5856d6"></div>
+        </div>
+    </div>
+   
+
+    <script src="app.js"></script>
+</body>
+</html>
